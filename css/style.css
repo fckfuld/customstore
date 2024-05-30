@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    width: auto;
+}
+
+.container1{
+    margin: 0 auto;
+    width: auto;
+}
+
+.shapka{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 60px;
+    background-color: #8cbbd1;
+    position: fixed;
+    z-index: 99999;
+}
+.nado{
+    height: 60px;
+}
+.main{
+    width: 100%;
+    max-width: 100%;
+    height: 1000px;
+    background-image: url(../images/1.jpg);
+    filter: opacity(0.9);
+    background-size: cover;
+}
+
+.main h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: mainFont;
+    font-size:xx-large;
+    color: rgb(61, 83, 102);
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    color: #f0ffff;
+    font-family: mainFont;
+}
+/* МЕНЮ САЙТА*/
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 25%;
+}
+
+.menu__item {
+    display: flex;
+    width: 30%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+/*ССЫЛКА*/
+.menu__link{
+    transition: all 0.3s ease 0s;
+    color: #f0ffff;
+    font-family: mainFont;
+    text-decoration: none;
+}
+
+/*ПРИ НАВЕДЕНИИ НА ССЫЛКУ*/
+.menu__link:hover{
+    color:  #a9d4e7;
+}
+
+/* МЕНЮ САЙТА*/
+
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+
+/* подключение шрифтов */
+
+@font-face {
+    font-family: mainFont;
+    src: url(../fonts/OpenSans.ttf);
+}
+
+/* доп стили для каталога */
+.main1{
+    width: 100%;
+    max-width: 100%;
+}
+
+.block{
+    margin: 0 auto;
+    width: 60%;
+    height: 100%;
+}
+
+.headphones, .ps, .keyboards, .mouse{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 20%;
+    border-bottom: 2px solid #8cbbd1;
+}
+
+.corps{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 20%;
+}
+
+.headphones__item, .ps__item, .keyboards__item, .mouse__item, .corps__item{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*ССЫЛКА*/
+.headphones__link, .ps__link, .keyboards__link, .mouse__link, .corps__link{
+    transition: all 0.3s ease 0s;
+    font-size:x-large;
+    font-family: mainFont;
+    text-decoration: none;
+    color: #8cbbd1;
+}
+
+/*ПРИ НАВЕДЕНИИ НА ССЫЛКУ*/
+.headphones__link:hover, .ps__link:hover, .keyboards__link:hover, .mouse__link:hover, .corps__link:hover{
+    color:  #8cbbd1a1;
+}
+
+.podval{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 140px;
+    background-color: #8cbbd1;
+}
+
+.podval1, .info, .podval_end{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30%;
+    width: 20%;
+    margin-top: 15px;
+    padding-bottom: 8px;
+}
+
+.menu_info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.podval_end{
+    color: #f0ffff;
+    size: 5px;
+}
+
+/*каталог наушников*/
+.headphones1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 20%;
+    border-bottom: 2px solid #8cbbd1;
+}
+
+.headphones2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 20%;
+}
+
+.headphones__1, .headphones__2, .headphones__3, .headphones__4, .headphones__5{
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.info1, .info2, .info3, .info4, .info5{
+    display: flex;
+    width: 70%;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    font-family: mainFont;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: mainFont;
+    flex-direction: column;
+}
+/*вкладка о нас*/
+.mapp{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.number{
+    width: 100%;
+    font-family: mainFont;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 2px solid #8cbbd1;
+    border-bottom: 2px solid #8cbbd1;
+    color: #8cbbd1;
+    text-align: center;
+    font-size:large;
+}
+.about__custom1{
+    width: 100%;
+    font-family: mainFont;
+    padding-top: 60px;
+    color: #8cbbd1;
+    text-align: center;
+    font-size:large;
+}
+.about__custom2{
+    width: 100%;
+    font-family: mainFont;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #8cbbd1;
+    color: #8cbbd1;
+    text-align: center;
+    font-size:large;
+}
+
+.about__custom3{
+    width: 100%;
+    font-family: mainFont;
+    padding-top: 30px;
+    color: #8cbbd1;
+    text-align: center;
+    font-size: 15px;
+}
+.about__custom4{
+    width: 100%;
+    font-family: mainFont;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: #8cbbd1;
+    text-align: center;
+    font-size: 15px;
+}
